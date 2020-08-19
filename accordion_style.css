@@ -1,0 +1,201 @@
+.accordion1 {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+    padding: 10px 10px 30px 20px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+  transition: 0.1s;
+    line-height: 1.5;
+     border-top: solid 3px darkgray;
+
+
+}
+
+.accordion2 {
+ background-color: #eee;
+  color: #444;
+  cursor: pointer;
+    padding: 10px 10px 30px 20px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+  transition: 0.1s;
+    line-height: 1.5;
+     border-top: solid 3px darkgray;
+
+
+}
+
+.practitioner_likes {
+    background-color: white;
+    border: 1px solid white;
+    margin-top: 18px;
+    font-size: 40px;
+    
+    /*box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+    width: 100%;
+    text-align: center;
+}
+
+
+
+.open_accordion {
+  background-color: #eee;
+  color: #444;
+  padding: 5px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+  transition: 0.1s;
+     border-top: solid 3px darkgray;
+     box-shadow: 10px 10px 10px -4px #bbb;
+    border-radius: 3px;
+    z-index: 1;
+
+
+}
+
+#karen {
+    position: bottom;
+}
+
+.practitioner_img {
+    width: 75px;
+    height: 75px;
+    overflow: hidden;
+    object-fit: cover;
+    position: absolute;
+    margin-left: 5px;
+    border-radius: 50%;
+    border: solid 2px white;
+}
+
+.practitioner_paragraph_content {
+    font-family: 'Raleway';
+    font-size: 6px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 4%;
+    margin-bottom: 3%;
+    line-height: 1.5;
+}
+
+.practitioner_paragraph_content h1 {
+    color: darkslategrey;
+    font-size: 27px;
+    font-weight: 800;
+}
+
+
+
+.open_accordion h2 {
+    margin-left: 90px;
+    font-family: 'Raleway';
+}
+
+.accordion1 h2 {
+    font-weight: 300;
+    font-family: 'Raleway';
+}
+
+.accordion2 h2 {
+    font-weight: 300;
+    font-family: 'Raleway';
+}
+
+.accordion2 h2:hover {
+    color: maroon;
+}
+
+.accordion1 h2:hover {
+    color: maroon;
+}
+
+.active, .accordion1:hover {
+    box-shadow: 0px 0px 12px #888888;
+}
+
+.active, .accordion2:hover {
+     box-shadow: 0px 0px 12px #888888;
+}
+
+.accordion_date {
+    margin: 2px 2px 22px 0px;
+    font-weight: 600;
+    font-family: 'Raleway';
+    margin-bottom: 5px;
+}
+
+.presented_by {
+    font-family: 'Raleway';
+    margin: 2px 2px 2px 0px;
+}
+
+.accordion1:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.open_panel {
+    font-family: 'Raleway';
+    font-weight: 300;
+    font-size: 20px;
+    padding: 20px;
+    text-align: left;
+    color: black;
+    box-shadow: 10px 10px 10px #eee;
+}
+
+#paypal_form {
+    margin-bottom: 12px;
+}
+
+.accordion2:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+    font-family: 'Raleway';
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+   
+}
+
+.top_picture_acc {
+    border: 1px solid white;
+    border-bottom: 2px solid white;
+    min-height: 400px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0s linear;
+    background-position: 220% 30%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#grasssand_acc {
+    background-image: url(Media/pexels-krivec-ales-580151.jpg);
+    background-position: center;
+}
