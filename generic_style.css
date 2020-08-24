@@ -144,7 +144,7 @@ width: 50%;
     color: #525c63;
 }
 
-#name:hover {
+#header_title:hover {
     color: #8c0000;
 }
 
@@ -325,9 +325,7 @@ p {
 
 }
 
-.overlay #currentPage {
-    color: maroon !important;
-}
+
 
 .main {
     display: flex;
@@ -605,6 +603,15 @@ iframe {
 
 }
 
+.contact_content {
+    font-family: 'Raleway';
+    font-size: 6px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    line-height: 1.5;
+}
 
 #book_button_image {
     position: fixed;
@@ -924,10 +931,7 @@ iframe {
     
 }
 
-.sub_menu {
-    font-size: 20px !important;
-    margin-left: 30px;
-}
+
 
 .red_bullet {
     white-space: nowrap;
@@ -998,6 +1002,31 @@ iframe {
     font-weight: 800;
 }
 
+#sub_menu {
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.learn_more {
+    margin: 2px 2px 22px 0px;
+    font-weight: 600;
+    font-family: 'Raleway';
+    margin-bottom: 5px;
+}
+
+#currentPage {
+    color: maroon;
+}
+
+.sub_content_for_panel {
+    margin-left: 50px;
+}
+
+.sub_sub_content_for_panel {
+    margin-left: 50px;
+    color: darkslategrey;
+    font-size: 25px;
+}
 
 @media (orientation: portrait){
     
@@ -1008,8 +1037,8 @@ iframe {
     }
     
     #button {
-        padding: 15px 22px;
-        font-size: 20px;
+        padding: 13px 20px;
+        font-size: 25px;
         cursor: pointer;
         text-align: center;
         text-decoration: none;
@@ -1020,10 +1049,10 @@ iframe {
         border-radius: 15px;
         box-shadow: 0 9px #999;
         position: fixed;
-        right: 4%;
+        right: 3%;
         top: 60px;
         transition: 0.9s;
-        max-width: 170px;
+        max-width: 160px;
     }
     
     .header {
@@ -1035,17 +1064,17 @@ iframe {
     }
     
     #r_p {
-        margin-top: 50px;
+        margin-top: 25px;
         transition:visibility 1s, opacity 1s;
         font-size: 32px;
     }
 
     #name {
         margin: 0;
-        margin-top: 20px;
+        margin-top: 30px;
         padding: 0;
         height: 35px;
-        font-size: 70px;
+        font-size: 36px;
     }
     
     .topbar, .midbar, .botbar {
@@ -1149,6 +1178,19 @@ iframe {
         transition: 0.2s;
         white-space: nowrap;
     }
+    
+    .overlay span {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-decoration: none;
+        font-size: 52px;
+        color: #818181;
+        display: block;
+        transition: 0.2s;
+        white-space: nowrap;
+    }
+    
+    
 
     .change .topbar {
         -webkit-transform: rotate(-45deg) translate(-16px, 18px);
@@ -1208,6 +1250,40 @@ iframe {
     .list li {
         font-size: 35px;
         color: #414345;
+    }
+    
+    #sub_menu {
+        font-size: 40px;
+        margin-left: 50px;
+    }
+    
+    .paragraph_content h1 {
+        color: darkslategrey;
+        font-family: 'Raleway';
+        font-size: 44px;
+        font-weight: 600;
+    }
+    
+    .learn_more {
+        margin: 2px 2px 22px 0px;
+        font-weight: 300;
+        font-size: 35px;
+        font-family: 'Raleway';
+        margin-bottom: 5px;
+    }
+    
+    .contact_content {
+        font-family: 'Raleway';
+        font-size: 6px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 250px;
+        margin-bottom: 3%;
+        line-height: 1.5;
+    }
+    
+    #currentPage {
+        color: maroon;
     }
     
     /*
